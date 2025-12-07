@@ -532,5 +532,11 @@
     "description": "Remove the unused space in topbar.",
     "code": ".Kgjmt7IX5samBYUpbkBu, .OPsY6bKl1_FfA8jFpq1V { display: none !important; }",
     "preview": "resources/assets/snippets/remove-unused-space.png"
+  },
+  {
+    "title": "DancingKitasanBlack",
+    "description": "Adds KitasanBlack onto your progress bar.",
+    "code": ".player-controls .playback-progressbar::before { content: ''; width: 45px; height: 45px; bottom: calc(100% - 6px); left: 10px; position: absolute; image-rendering: pixelated; background-size: 45px 45px; background-image: url('https://tenor.com/view/uma-musume-kitasan-black-lonely-lonely-dancing-gif-474553505024729158'); }",
+    "preview": "resources/assets/snippets/uma-musume-kitasan-black.gif"
   }
 ]
